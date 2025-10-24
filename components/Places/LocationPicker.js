@@ -15,7 +15,7 @@ import Geolocation from '@react-native-community/geolocation';
 import { PermissionsAndroid } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
-const GOOGLE_API_KEY = 'AIzaSyBTLW8fEpNFSI2NFXMVPiYfE7rp43XULdU';
+const GOOGLE_API_KEY = '';
 
 function LocationPicker({ onLocationPicked }) {
   const [location, setLocation] = useState(null);
